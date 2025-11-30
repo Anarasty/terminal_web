@@ -59,9 +59,9 @@ function enterKey(e) {
             git = commands.length;
 
             if (currentDirectory === "scripts") {
-                addLine("🗲@Browsercom$~SYSTEM~$MasterJudah⚚:~/scripts➤ " + command.innerHTML, "no-animation", 0);
+                addLine("@anarasty_pro@Browser-Chrome ~ %:~/scripts➤ " + command.innerHTML, "no-animation", 0);
             } else {
-                addLine("🗲@Browsercom$~SYSTEM~$MasterJudah⚚:~➤ " + command.innerHTML, "no-animation", 0);
+                addLine("@anarasty_pro@Browser-Chrome ~ %:~➤ " + command.innerHTML, "no-animation", 0);
             }
             commander(command.innerHTML.toLowerCase());
             command.innerHTML = "";
@@ -85,7 +85,7 @@ function enterKey(e) {
     }
 }
 
-// Line commands
+//* Line commands
 function commander(cmd) {
     switch (cmd.toLowerCase()) {
         
@@ -123,9 +123,9 @@ function commander(cmd) {
             break;
 
         case "email":
-            addLine('Opening mailto:<a href="mailto:mastdev.developer.1959@gmail.com">mastdev.developer.1959@gmail.com</a>...', "color2", 80);
+            addLine('Opening mailto:<a href="mailto:nika.minaieva16@gmail.com">nika.minaieva16@gmail.com</a>...', "color2", 80);
             setTimeout(() => {
-                window.location.href = "mailto:mastdev.developer.1959@gmail.com";
+                window.location.href = "mailto:nika.minaieva16@gmail.com";
             }, 1000);
             break;
 
@@ -142,7 +142,7 @@ function commander(cmd) {
             loopLines(asciiart, "color2 margin", 80);
             break;
 
-        // socials
+        //* socials
         case "youtube":
             addLine("Opening Youtube...", "color2", 80);
             newTab(youtube);
