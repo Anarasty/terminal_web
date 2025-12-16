@@ -164,7 +164,7 @@ function commander(cmd) {
             newTab(instagram);
             break;
 
-        // linux command test
+        // linux command
         case "help":
             loopLines(help, "color2 margin", 80);
             break;
